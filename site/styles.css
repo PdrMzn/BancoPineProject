@@ -1,0 +1,103 @@
+/* Reset de Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #790f1d;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #790f1d;
+    padding: 10px 0;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+section p {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#nossos-servicos ul {
+    list-style: none;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#area-cliente {
+    text-align: center;
+}
+
+#area-cliente form {
+    display: inline-block;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#area-cliente label, #area-cliente input, #area-cliente button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#contato {
+    text-align: center;
+}
+
+#contato form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#contato label, #contato input, #contato textarea, #contato button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #790f1d;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
